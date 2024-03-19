@@ -1,0 +1,32 @@
+<language-addon>
+    <addon-name>fghj</addon-name>
+  	<version>
+		<version-class>yujk.Version</version-class>
+		<version-uid>rghj</version-uid>
+		<zk-version>9.6.0</zk-version><!-- or later -->
+	</version>
+    
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>ghj</component-name> <!-- required -->
+		<component-class>yujk.yujk</component-class> <!-- required -->
+		<widget-class>fghj.yujk</widget-class> <!-- required -->
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/ghj.js</mold-uri>
+
+			<!--
+			== Tip in advance ==
+				You don't have to specify a css.dsp if you need not ,
+				but usually you need it.
+
+				You could assign a .css file ,too.
+
+				The css.dsp is almost as same as CSS file ,
+				but have more powerful enhancement.	(like EL support.)
+			====
+			-->
+			<css-uri>css/ghj.css.dsp</css-uri>
+		</mold>
+	</component>
+</language-addon>
